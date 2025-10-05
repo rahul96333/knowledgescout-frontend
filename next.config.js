@@ -1,10 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  // No experimental config needed for Next.js 15
 }
+
+module.exports = nextConfig
